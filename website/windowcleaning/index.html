@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Window Cleaning Dublin Window Cleaning Dublin 6 Window Cleaning Dublin 4 Window Cleaning Dublin 8 Window Cleaning Dublin 2</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="Window Cleaning Dublin Window Cleaning Dublin 6 Window Cleaning Dublin 4 Window Cleaning Dublin 8 Window Cleaning Dublin 2">
+    
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles-merged.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.transitions.css">
+	<link rel="stylesheet" href="css/aos.theme.css">
+	
+    <link rel="stylesheet" href="css/custom.css">
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+   
+function validateFormOnSubmit(theForm) {
+var reason = "";
+
+  reason += validateUsername(theForm.Name);
+  reason += validateEmail(theForm.Email);
+  reason += validatePhone(theForm.Phone);
+  reason += validateTextArea(theForm.Enquiry);
+   
+  if (reason != "") {
+    alert("Some fields need correction:\n" + reason);
+    return false;
+  }
+   
+}
+function validateUsername(fld) {
+    var error = "";
+    var illegalChars = /^[a-zA-Z0-9-<#~//.>'@|?:;=+-]*$/; // allow words only, but some characters are case sensitive
+	
+    if (fld.value == "") {
+        fld.style.background = '#ffff80'; 
+        error = "You didn't enter your name!\n";
+    } else if ((fld.value.length < 8) || (fld.value.length > 30)) {
+        fld.style.background = '#ffff80'; 
+        error = "Your name has an insufficient length.\n";
+    } else if (illegalChars.test(fld.value)) {
+        fld.style.background = '#ffff80'; 
+        error = "The Name Field contains illegal characters, Please try again\n";
+    } else {
+        fld.style.background = 'White';
+    }
+    return error;
+}
+
+function trim(s)
+{
+  return s.replace(/^\s+|\s+$/, '');
+}
+
+function validateEmail(fld) {
+    var error="";
+    var tfld = trim(fld.value);                        // value of field with whitespace trimmed off
+    var emailFilter = /^[^@]+@[^@.]+\.[^@]*\w\w$/ ;
+    var illegalChars= /[\(\)\<\>\,\;\:\\\"\[\]]/ ;
+   
+    if (fld.value == "") {
+        fld.style.background = '#ffff80';
+        error = "You didn't enter an email address!\n";
+    } else if (!emailFilter.test(tfld)) {              //test email for illegal characters
+        fld.style.background = '#ffff80';
+        error = "Please enter a valid email address!\n";
+    } else if (fld.value.match(illegalChars)) {
+        fld.style.background = '#ffff80';
+        error = "The email address contains illegal characters!\n";
+    } else {
+        fld.style.background = 'White';
+    }
+    return error;
+}
+function validatePhone(fld) {
+    var error = "";
+    var stripped = fld.value.replace(/[\(\)\.\-\ ]/g, '');    
+
+   if (fld.value == "") {
+        error = "You didn't enter a phone number!\n";
+        fld.style.background = '#ffff80';
+    } else if (isNaN(parseInt(stripped))) {
+        error = "The phone number you entered contains illegal characters!\n";
+        fld.style.background = '#ffff80';
+    } else if ((stripped.length < 9) || (stripped.length > 12)) {
+        error = "The phone number is the wrong length. Make sure you include an area code!\n";
+        fld.style.background = '#ffff80';
+    }
+    return error;
+}
+function validateTextArea(fld) {
+    var error = "";
+    var illegalChars = /^[a-zA-Z0-9-<#~//.>'@|?:;=+-]*$/;
+	
+	// allow letters, numbers, and underscores
+ 
+    if (fld.value == "") {
+        fld.style.background = '#ffff80'; 
+        error = "You didn't enter anything into the message box!.\n";
+    } else if ((fld.value.length < 5) || (fld.value.length > 225)) {
+        fld.style.background = '#ffff80'; 
+        error = "Please insert more characters into the textbox!\n";
+    } else if (illegalChars.test(fld.value)) {
+        fld.style.background = '#ffff80'; 
+        error = "The Textbox area expects at least 40 characters for submission!\n";
+    } else {
+        fld.style.background = 'White';
+    }
+    return error;
+}
+
+//--><!]]></script>
+  </head>
+  <body>
+
+  <!-- START: header -->
+  
+  <div class="probootstrap-loader"></div>
+  <div class="fixedcallicon">
+			<i class="fa fa-phone"></i><span><a href="tel:0872404321">Click To Book An Appointment</a></span>
+  </div>
+  <header id="header-fixed" class="header header-fixed header-prepare">
+    <div class="container">
+		<!-- 	<a href="index-1.html" class="navbar-brand logo">
+							EastSide Window Cleaning
+						</a> -->
+	
+	 <img src="img/logo.png" alt="logo" class="navbar-brand logo img-circle"  width="200" height="200"> 
+     
+        
+        <a href="#" class="probootstrap-burger-menu visible-xs" ><i></i></a>
+        <div class="mobile-menu-overlay"></div>
+
+        <nav role="navigation" class="probootstrap-nav hidden-xs">
+		
+          <ul class="probootstrap-main-nav active">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+			<li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#service" class="nav-link">Services</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="extra-text visible-xs"> 
+            <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+            
+          </div>
+        </nav>
+    </div>
+  </header>
+  <!-- END: header -->
+  
+  
+  
+  
+  <section class="probootstrap-slider flexslider">
+    <div class="probootstrap-wrap-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">        
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul class="slides">
+      <li style="background-image: url(img/slide-1.jpg);" class="overlay"></li>
+      <li style="background-image: url(img/slide-2.jpg);" class="overlay"></li>
+      <li style="background-image: url(img/slide-3.jpg);" class="overlay"></li>
+    </ul>
+  </section>
+  <!-- END: slider  -->
+   
+  <section class="probootstrap-section probootstrap-section-lighter" id="about">
+    <div class="container">
+	  <div class="row heading">
+        <div class="section-title text-center" data-aos="fade-up">
+			<h2>About</h2>
+			<div class="under-line text-light">
+				<div class="line-up">
+					<div class="dot"></div>
+					<div class="dot"></div>
+					<div class="dot"></div>
+				</div>
+			</div>
+		</div>
+      </div>
+	  <div class="row probootstrap-gutter10">
+	    
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <a class="probootstrap-hover-overlay">
+            <img class="img-responsive img-thumbnail" src="img/slide-5-about.jpg" >
+            <div class="probootstrap-text-overlay">
+              <h3>Dublin 2</h3>
+              
+            </div>
+          </a>
+        </div>
+      	<div class="col-sm-6 col-md-6">
+            <div class="probootstrap-card-text">
+              <h4 class="probootstrap-card-heading">- Making People Happy Every Time -</h4>
+              <p>During my college years I have been cleaning windows part time in the Dublin 8, 
+				 Dublin 6, Dublin 4 and Dublin 2 area's of inner city Dublin. I have met lots
+				 of wonderful people and still cleaning their windows to this day. 
+				 I set the standards very high in order to get it right every time.
+			  </p>
+			  <br/>
+			  <p>If you are looking to get your windows cleaned or any other job you require done.
+			     Please don't hesitate to call using the callicon icon  (Blue/white phone icon above)
+				 or alternatively you can leave me a message through the contact form below and I will get 
+				 back to you as soon as possible.
+			  </p>
+			  <p>Many Thanks <i>John</i> 
+			  </p>
+                
+            </div>
+        </div>
+	  </div>
+	</div>
+  </section>
+  <!-- END: section -->
+    <section class="probootstrap-section" id="service">
+    <div class="container">
+      <div class="row heading">
+        <div class="section-title text-center" data-aos="fade-up">
+			<h2>Services</h2>
+			<div class="under-line text-light">
+				<div class="line-up">
+					<div class="dot"></div>
+					<div class="dot"></div>
+					<div class="dot"></div>
+				</div>
+			</div>
+		</div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 probootstrap-animate">
+          <div class="service text-center">
+            <div class="icon"><img src="img/window.png" alt="window"></div>
+            <h2 class="heading">Window Cleaning</h2>
+            <p>Windows washed, polished, paint marks removed with scraper, leaving windows looking cleaner for longer.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 probootstrap-animate">
+          <div class="service text-center">
+           <div class="icon"><img src="img/shovel.png" alt="shovel"></div>
+            <h2 class="heading">Gutter Cleaning</h2>
+            <p>Gutter cleaning can be done on request. Removing any blockages which may cause leak or damage.</p>
+          </div>
+        </div>
+        <div class="clearfix visible-sm-block"></div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 probootstrap-animate">
+          <div class="service text-center">
+            <div class="icon"><img src="img/nature.png" alt="hedge"></div>
+            <h2 class="heading">Hedge Cutting</h2>
+            <p>Doesn’t matter how big or small the job is, we will do the job according to your specification.</p>
+          </div>
+        </div>
+        <div class="clearfix visible-lg-block visible-md-block"></div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 probootstrap-animate">
+          <div class="service text-center">
+            <div class="icon"><img src="img/machine.png" alt="machine"></div>
+            <h2 class="heading">Grass Cutting</h2>
+            <p>For a professional & reliable grass cutting service we gaurantee a faultless service every time.
+          </div>
+        </div>
+        <div class="clearfix visible-sm-block"></div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 probootstrap-animate">
+          <div class="service text-center">
+            <div class="icon"><img src="img/paint-roller.png"></div>
+            <h2 class="heading">Internal Painting</h2>
+            <p>All internal rooms painted / decorated to a high standard using customer specifications at reasonable prices.  </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 probootstrap-animate">
+          <div class="service text-center">
+            <div class="icon"><img src="img/paintbrush.png" alt="paint brush"></div>
+            <h2 class="heading">External Painting</h2>
+            <p>All external walls painted / decorated to a high standard using customer specifications at reasonable prices.</p>
+          </div>
+        </div>
+        <div class="clearfix visible-lg-block visible-md-block"></div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="probootstrap-section probootstrap-bg" style="background-image: url(img/slide-6.jpg);">
+    <div class="container text-center probootstrap-animate" data-animate-effect="fadeIn">
+      <h2 class="heading"></h2>
+      
+    </div>
+  </section>
+  <!-- END: section -->
+  <section class="probootstrap-section" id="portfolio">
+    <div class="container">
+      <div class="row heading">
+        <div class="section-title text-center" data-aos="fade-up">
+			<h2>Portfolio</h2>
+			<div class="under-line text-light">
+				<div class="line-up">
+					<div class="dot"></div>
+					<div class="dot"></div>
+					<div class="dot"></div>
+				</div>
+			</div>
+		</div>
+      </div>
+      <div class="row probootstrap-gutter10">
+	  <div class="row">
+        <div class="col-sm-6 col-md-6">
+          <a href="#" class="probootstrap-hover-overlay">
+            <img src="img/slide-2.jpg" alt="house" class="img-responsive img-thumbnail">
+            <div class="probootstrap-text-overlay">
+              <h3>Dublin 8</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <a href="#" class="probootstrap-hover-overlay">
+            <img src="img/slide-1.jpg" alt="house" class="img-responsive img-thumbnail">
+            <div class="probootstrap-text-overlay">
+              <h3>Dublin 6</h3>             
+            </div>
+          </a>
+        </div>
+	  </div>
+        <div class="clearfix visible-sm-block"></div>
+       <div class="row">
+        <div class="col-sm-6 col-md-6">
+          <a href="#" class="probootstrap-hover-overlay">
+            <img src="img/slide-3.jpg" alt="house" class="img-responsive img-thumbnail">
+            <div class="probootstrap-text-overlay">
+              <h3>Dublin 4</h3>            
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <a href="#" class="probootstrap-hover-overlay">
+            <img src="img/slide-4.jpg" alt="house" class="img-responsive img-thumbnail">
+            <div class="probootstrap-text-overlay">
+              <h3>Dublin 6</h3>            
+            </div>
+          </a>
+        </div>
+	  </div>
+	  <div class="clearfix visible-sm-block"></div>
+	  <div class="row">
+        <div class="col-sm-6 col-md-6">
+          <a href="#" class="probootstrap-hover-overlay">
+            <img src="img/slide-5.jpg" alt="house" class="img-responsive img-thumbnail">
+            <div class="probootstrap-text-overlay">
+              <h3>Dublin 2</h3>          
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <a href="#" class="probootstrap-hover-overlay">
+            <img src="img/slide-6.jpg" alt="house" class="img-responsive img-thumbnail">
+            <div class="probootstrap-text-overlay">
+              <h3>Dublin 4</h3>
+            </div>
+          </a>
+        </div>
+	  </div>
+    </div>
+    </div>
+  </section>
+  <section class="probootstrap-section probootstrap-bg" style="background-image: url(img/slide-6.jpg);">
+    <div class="container text-center probootstrap-animate" data-animate-effect="fadeIn">
+      <h2 class="heading"></h2>
+      
+    </div>
+  </section>
+
+  <!-- Contact -->
+        <section class="section bg-light" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center" data-aos="fade-up">
+                            <h2>Get In Touch</h2>
+                            <div class="under-line text-light">
+                                <div class="line-up">
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom-form mt-4" data-aos="fade-up">
+                    <form name="Enquiry_form" class="contact-form" method="post" onsubmit="return validateFormOnSubmit(this)" action="mail/FormToEmail.php">
+					   
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="Name">Name</label>
+                                    <input id="Name" name="Name" type="text" class="form-control" placeholder="Please enter your name here" accesskey="e"/>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="Email">Email address</label>
+                                    <input name="Email" id="Email" value="" type="text" class="form-control" placeholder="Please enter your email address here" accesskey="g"/>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="Phone">Mobile</label>
+                                    <input type="text" value="" name="Phone"  id="Phone" class="form-control" placeholder="Please enter your phone number here" accesskey="h" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="Enquiry">Message</label>
+                                    <textarea rows="5" id="Enquiry" name="Enquiry" class="form-control" value="" placeholder="Please insert your requested information here" accesskey="d"></textarea>							
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+							<div class="col-md-12">
+						  <button type="submit" id="submit_send_id0" value="Send Information" onClick="validateFormOnSubmit(theForm)" name="send" title="Send Button" alt="send button"  accesskey="s" class="btn btn-primary center-block">
+									Send Message
+									</button>
+						  </div>
+						  
+						</div>
+                    </form>
+				</div>
+			</div>
+        </section>
+        <!-- contact end -->
+		
+		<!-- FOOTER -->
+        <footer class="footer">
+		    <div class="spacer-30"></div>
+		    <div class="myfooter">
+                <div class="container">
+				    <div class="row">
+					  
+					   
+					   <div class="col-xs-12 col-sm-12 col-md-12">
+							<div class="">
+									<p>Email:johndoe@gmail.com</p>
+									<p>Mobile:0871234567</p>
+							
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<div class="">
+								
+									<p>&copy; All rights reserved &nbsp;<span id="demo"></span>.</p>
+								
+							</div>
+						</div>
+					</div>						   
+				</div>				  
+		    </div>
+        </footer>
+
+    <div class="scroll-top">
+		<div class="scrollup">
+			<i class="fa fa-angle-double-up"></i>
+		</div>	
+	 </div>
+ 
+  <script src="js/jquery.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/owl.carouselabout.min.js"></script>
+
+  <script src="js/scripts.min.js"></script>
+  <script src="js/custompart2.js"></script>
+  <script src="js/main.min.js"></script>
+  <script src="js/custom.js"></script>
+
+  </body>
+</html>
